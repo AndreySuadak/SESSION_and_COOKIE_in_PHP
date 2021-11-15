@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(111,111,111,0.5);
+    font-family: 'PT Serif', serif;
+}
+
+.wrapper {
+    width: 50%;
+    min-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(204,204,204, 1);
+    text-align: center;
+    border-radius: 5vh;
+    box-sizing: border-box;
+}
+.wrapper form {
+    width: 50%;
+    margin-top: 0.1vh;
+    margin-left: 20%;
+    padding: 3vh;
+    border: 1vh solid rgba(4, 5, 103, 1);
+    border-radius: 3vh;
+}
+input[type="text"] {
+    padding-left: 3vh;
+    width: 20vw;
+    height: 2.5vh;
+    border: none;
+    /* outline:none; */
+    border-radius: 0.5vh;
+    font-family: 'PT Serif', serif;
+    color: rgba(17, 0, 255, 1);
+    font-size: 2vh;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.4);;
+}
+input[type="text"]:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.sess {
+    border: 1vh solid rgba(4, 103, 34, 1);
+    border-radius: 3vh;
+}
+.cook {
+    border: 1vh solid rgba(103, 4, 100, 1);
+    border-radius: 3vh;
+}
+ span {
+     color: rgba(17, 0, 255, 1);
+     font-family: 'PT Serif', serif;
+     font-weight: bold;
+     font-style: italic;
+ }
